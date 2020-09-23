@@ -2,7 +2,7 @@
 
 This is a collection of simple programs built using Codeigniter as a php framework and using mariadb or mysql as a database, this program includes:
 
-1. [Keliling Jajar Genjang](https://github.com/rdp77/CodeIgniter/tree/master/Keliling_Jajar_Genjang)
+1. [Simple Navigation](/simple_navigation)
 
 ## Configuration Database
 
@@ -20,11 +20,11 @@ $db['default'] = array(
 );
 ```
 
+## Table Migrations
+
+For run migrations
+
 ### Simple Navigation
 
 <div style="text-align:center"><img src="/docs/simple_navigation.png" /></div>
-Multiple navigation in header using controllers, you can see [here](../blob/master/simple_navigation).[I'm an inline-style link](https://www.google.com)
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Multiple navigation in header using controllers, you can see <a href="/simple_navigation">here.</a>
