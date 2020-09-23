@@ -11,18 +11,19 @@ You can set your own database naming along with a password that can be found in 
 ```markdown
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost', //Your hostname, use the default as a recommendation
-	'username' => '', //Username your database
-	'password' => '', //Password your database
-	'database' => '', //Name Database
-	'dbdriver' => 'mysqli', //Driver Database, use this settings if you are using mysql or mariadb
+	'hostname' => 'localhost', *//Your hostname, use the default as a recommendation*
+	'username' => '', *//Username your database*
+	'password' => '', *//Password your database*
+	'database' => '', *//Name Database*
+	'dbdriver' => 'mysqli', *//Driver Database, use this settings if you are using mysql or mariadb*
 	...
 );
 ```
 
-### Keliling Jajar Genjang
+### Simple Navigation
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rdp77/CodeIgniter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<div style="text-align:center"><img src="/docs/simple_navigation.png" /></div>
+Multiple navigation in header using controllers, you can see [here](../blob/master/simple_navigation).[I'm an inline-style link](https://www.google.com)
 
 ### Support or Contact
 
