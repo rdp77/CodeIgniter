@@ -3,6 +3,7 @@
 This is a collection of simple programs built using Codeigniter as a php framework and using mariadb or mysql as a database, this program includes:
 
 1. [Simple Navigation](/simple_navigation)
+2. [Pattern](/pattern)
 
 ## Configuration Database
 
@@ -28,3 +29,8 @@ For run migrations
 
 <div style="text-align:center"><img src="/docs/simple_navigation.png" /></div>
 Multiple navigation in header using controllers, you can see <a href="/simple_navigation">here.</a>
+
+### Pattern
+
+<div style="text-align:center"><img src="/docs/pattern.png" /></div>
+Passing data from the controllers then making the pattern like the image above, you can see <a href="/pattern">here.</a>
