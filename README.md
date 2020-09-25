@@ -4,6 +4,7 @@ This is a collection of simple programs built using Codeigniter as a php framewo
 
 1. [Simple Navigation](/simple_navigation)
 2. [Pattern](/pattern)
+3. [Auth And Calculator](/log_calc)
 
 ## Configuration Database
 
@@ -12,11 +13,11 @@ You can set your own database naming along with a password that can be found in 
 ```markdown
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost', *//Your hostname, use the default as a recommendation*
-	'username' => '', *//Username your database*
-	'password' => '', *//Password your database*
-	'database' => '', *//Name Database*
-	'dbdriver' => 'mysqli', *//Driver Database, use this settings if you are using mysql or mariadb*
+	'hostname' => 'localhost', //Your hostname, use the default as a recommendation*
+	'username' => '', //Username your database*
+	'password' => '', //Password your database*
+	'database' => '', //Name Database*
+	'dbdriver' => 'mysqli', //Driver Database, use this settings if you are using mysql or mariadb*
 	...
 );
 ```
@@ -34,3 +35,8 @@ Multiple navigation in header using controllers, you can see <a href="/simple_na
 
 <div style="text-align:center"><img src="/docs/pattern.png" /></div>
 Passing data from the controllers then making the pattern like the image above, you can see <a href="/pattern">here.</a>
+
+### Auth And Calculator
+
+<div style="text-align:center"><img src="/docs/log_calc.png" /></div>
+Provide 2 simple functions, one as the login and logout method using a library from the Codeigniter framework, while the other one is a simple calculator or calculator. you can see <a href="/log_calc">here.</a>
