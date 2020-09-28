@@ -5,6 +5,7 @@ This is a collection of simple programs built using Codeigniter as a php framewo
 1. [Simple Navigation](/simple_navigation)
 2. [Pattern](/pattern)
 3. [Auth And Calculator](/log_calc)
+4. [Around the Parallelogram](/parallelogram)
 
 ## Configuration Database
 
@@ -40,3 +41,8 @@ Passing data from the controllers then making the pattern like the image above, 
 
 <div style="text-align:center"><img src="/docs/log_calc.png" /></div>
 Provide 2 simple functions, one as the login and logout method using a library from the Codeigniter framework, while the other one is a simple calculator or calculator. you can see <a href="/log_calc">here.</a>
+
+### Around the Parallelogram
+
+<div style="text-align:center"><img src="/docs/parallelogram.png" /></div>
+Simple app for counting from the circumference of a parallelogram, you can see <a href="/parallelogram">here.</a>
