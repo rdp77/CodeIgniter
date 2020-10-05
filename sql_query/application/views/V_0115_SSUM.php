@@ -15,7 +15,7 @@
                 <?php if (isset($total)) : ?>
                     <tr>
                         <td class="text-center">
-                            <?= $total ?>
+                            <?= number_format($total) ?>
                         </td>
                     </tr>
                 <?php else : ?>

@@ -26,7 +26,7 @@ class C_0115 extends CI_Controller
     }
     public function selectjw()
     {
-        $nbi = array('id_barang' => '1461800115');
+        $nbi = array('id_barang' => '6');
         $jw['data'] = $this->M_0115->selectjw($nbi);
         $this->load->view('V_0115_SJW', $jw);
     }

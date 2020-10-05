@@ -2,10 +2,14 @@
 
 This is a collection of simple programs built using Codeigniter as a php framework and using mariadb or mysql as a database, this program includes:
 
-1. [Simple Navigation](/simple_navigation)
-2. [Pattern](/pattern)
-3. [Auth And Calculator](/log_calc)
-4. [Around the Parallelogram](/parallelogram)
+- [Simple Program](#simple-program)
+	- [Configuration Database](#configuration-database)
+	- [Table Migrations](#table-migrations)
+		- [Simple Navigation](#simple-navigation)
+		- [Pattern](#pattern)
+		- [Auth And Calculator](#auth-and-calculator)
+		- [Around the Parallelogram](#around-the-parallelogram)
+		- [SQL Query](#sql-query)
 
 ## Configuration Database
 
@@ -43,6 +47,11 @@ Passing data from the controllers then making the pattern like the image above, 
 Provide 2 simple functions, one as the login and logout method using a library from the Codeigniter framework, while the other one is a simple calculator or calculator. you can see <a href="/log_calc">here.</a>
 
 ### Around the Parallelogram
+
+<div style="text-align:center"><img src="/docs/parallelogram.png" /></div>
+Simple app for counting from the circumference of a parallelogram, you can see <a href="/parallelogram">here.</a>
+
+### SQL Query
 
 <div style="text-align:center"><img src="/docs/parallelogram.png" /></div>
 Simple app for counting from the circumference of a parallelogram, you can see <a href="/parallelogram">here.</a>

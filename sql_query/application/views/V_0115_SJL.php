@@ -2,7 +2,7 @@
 <div class="mt-5 py-5 border-top text-center">
     <div class="row justify-content-center">
         <div class="text-center">
-            <h3>Select Join Where</h3>
+            <h3>Select Join Like</h3>
         </div>
         <table class="table">
             <p></p>
@@ -18,20 +18,20 @@
             </thead>
             <tbody>
                 <?php if (isset($data)) : ?>
-                    <?php foreach ($data as $joinwhere) : ?>
+                    <?php foreach ($data as $joinwherelike) : ?>
                         <tr>
                             <td class="text-center">
-                                <?= $joinwhere->id_barang ?>
+                                <?= $joinwherelike->id_barang ?>
                             </td>
                             <td>
-                                <?= $joinwhere->id_pelanggan ?>
+                                <?= $joinwherelike->id_pelanggan ?>
                             </td>
-                            <td><?= $joinwhere->nama ?></td>
-                            <td><?= $joinwhere->email ?></td>
+                            <td><?= $joinwherelike->nama ?></td>
+                            <td><?= $joinwherelike->email ?></td>
                             <td class="text-right">
-                                <?= $joinwhere->nama_barang ?></td>
+                                <?= $joinwherelike->nama_barang ?></td>
                             <td class="text-right">
-                                <?= $joinwhere->harga ?>
+                                <?= number_format($joinwherelike->harga) ?>
                             </td>
                         </tr>
                     <?php endforeach ?>
